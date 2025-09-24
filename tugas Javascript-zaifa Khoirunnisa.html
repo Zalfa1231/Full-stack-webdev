@@ -1,0 +1,46 @@
+// Class Pelanggan
+class Pelanggan {
+  constructor(nama, nomorTelepon, kendaraanDisewa) {
+    this.nama = nama;
+    this.nomorTelepon = nomorTelepon;
+    this.kendaraanDisewa = kendaraanDisewa;
+  }
+
+  // Method untuk mencatat transaksi penyewaan
+  catatSewa() {
+    return `${this.nama} (${this.nomorTelepon}) menyewa ${this.kendaraanDisewa}`;
+  }
+}
+
+// Class SistemTransportasi
+class SistemTransportasi {
+  constructor() {
+    this.daftarPelanggan = [];
+  }
+
+  // Tambah transaksi penyewaan
+  tambahPelanggan(pelanggan) {
+    this.daftarPelanggan.push(pelanggan);
+  }
+
+  // Tampilkan daftar pelanggan
+  tampilkanDaftarPelanggan() {
+    console.log("Daftar Pelanggan yang Menyewa Kendaraan:");
+    this.daftarPelanggan.forEach((p, index) => {
+      console.log(`${index + 1}. ${p.catatSewa()}`);
+    });
+  }
+}
+
+em = new SistemTransSistemTransport
+pelangganansportasipelanggan= new Pelanggan("Zalfa", "08123456789", "Mobil");
+const pelanggan2 = new Pelanggan("Budi", "08234567890", "Motor");
+const pelanggan3 = new Pelanggan("Siti", "08345678901", "Bus");
+
+// Tambah ke sistem
+sistem.tambahPelanggan(pelanggan1);
+sistem.tambahPelanggan(pelanggan2);
+sistem.tambahPelanggan(pelanggan3);
+
+// Tampilkan daftar pelanggan
+sistem.tampilkanDaftarPelanggan();
