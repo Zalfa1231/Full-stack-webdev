@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuis JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      color: #333;
+      padding: 20px;
+    }
+    .quiz-container {
+      max-width: 700px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question h3 {
+      margin-bottom: 10px;
+    }
+    .options label {
+      display: block;
+      background: #ecf0f1;
+      padding: 10px;
+      border-radius: 8px;
+      margin: 6px 0;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .options label:hover {
+      background: #dcdde1;
+    }
+    button {
+      background: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Kuis JavaScript</h1>
+    
+    <div class="question">
+      <h3>1. Kode yang digunakan untuk menghubungkan antara JS dengan HTML dengan ID didalam DOM adalah?</h3>
+      <div class="options">
+        <label><input type="radio" name="q1"> a. getElementByID</label>
+        <label><input type="radio" name="q1"> b. gerElement</label>
+        <label><input type="radio" name="q1"> c. Selector</label>
+        <label><input type="radio" name="q1"> d. CreateElement</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>2. Pada event object, method yang berfungsi untuk mencegah perilaku default dari suatu elemen adalah?</h3>
+      <div class="options">
+        <label><input type="radio" name="q2"> a. createDefault</label>
+        <label><input type="radio" name="q2"> b. preventDefault</label>
+        <label><input type="radio" name="q2"> c. elementdefault</label>
+        <label><input type="radio" name="q2"> d. stopDefault</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>3. Keyword yang digunakan didalam video untuk event delegation adalah?</h3>
+      <div class="options">
+        <label><input type="radio" name="q3"> a. Key</label>
+        <label><input type="radio" name="q3"> b. Event</label>
+        <label><input type="radio" name="q3"> c. Create</label>
+        <label><input type="radio" name="q3"> d. Value</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>4. Destructuring adalah salah satu teknik di JavaScript yang berfungsi untuk?</h3>
+      <div class="options">
+        <label><input type="radio" name="q4"> a. Membantu membuat fungsi</label>
+        <label><input type="radio" name="q4"> b. Membantu mengekstrak property dari sebuah objek</label>
+        <label><input type="radio" name="q4"> c. Membantu mendeklarasikan variable</label>
+        <label><input type="radio" name="q4"> d. Membantu membuat value</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>5. Dalam menggunakan spread dan rest parameter, kita dapat menggunakan karakter?</h3>
+      <div class="options">
+        <label><input type="radio" name="q5"> a. Titik dua</label>
+        <label><input type="radio" name="q5"> b. Titik satu</label>
+        <label><input type="radio" name="q5"> c. Titik lima</label>
+        <label><input type="radio" name="q5"> d. Titik tiga</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>6. Yang bukan termasuk feedback status dari hasil promise adalah?</h3>
+      <div class="options">
+        <label><input type="radio" name="q6"> a. Fulfilled</label>
+        <label><input type="radio" name="q6"> b. Rejected</label>
+        <label><input type="radio" name="q6"> c. Error</label>
+        <label><input type="radio" name="q6"> d. Pending</label>
+      </div>
+    </div>
+
+    <button>Kirim Jawaban</button>
+  </div>
+</body>
+</html>
